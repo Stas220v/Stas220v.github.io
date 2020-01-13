@@ -586,6 +586,9 @@ ul {
 	}
 }
 @media (max-width: 1020px) {
+	.dis{
+		font-size: 130%;
+	}
 	.ph1 li{
 		margin-right: 45px;
 	}
@@ -669,7 +672,7 @@ ul {
 		justify-content: center;
 	}
 	.dis{
-		font-size: 200%;
+		font-size: 185%;
 	}
 	.dis1{
 		font-size: 250%;
@@ -715,6 +718,12 @@ ul {
 	}
 }
 @media (max-width: 650px) {
+	.dis{
+		font-size: 150%;
+	}
+	.dis1{
+		font-size: 230%;
+	}
 	.menu{
 		top: 88%;
 		width: 92%;
@@ -725,12 +734,24 @@ ul {
 	}
 }
 @media (max-width: 530px) {
+	.dis{
+		font-size: 130%;
+	}
+	.dis1{
+		font-size: 210%;
+	}
 	.menu{
 		top: 88%;
 		width: 90.5%;
 	}
 }
 @media (max-width: 480px) {
+	.dis{
+		font-size: 110%;
+	}
+	.dis1{
+		font-size: 190%;
+	}
 	.ph1 a{
 		font-size: 14px;
 	}
@@ -755,6 +776,13 @@ ul {
 	}
 }
 @media (max-width: 400px) {
+
+	.dis{
+		font-size: 90%;
+	}
+	.dis1{
+		font-size: 150%;
+	}
 	.menu{
 		top: 85%;
 		width: 88%;
