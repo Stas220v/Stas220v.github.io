@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-       xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
-
-		<loc xmlns:xhtml="http://cheerknute.pp.ua/index.html">http://cheerknute.pp.ua/index.html</loc>
-		<loc xmlns:xhtml="http://cheerknute.pp.ua/photo.html">http://cheerknute.pp.ua/photo.html</loc>
+		<loc>http://cheerknute.pp.ua/</loc>
+		<lastmod>2020-01-13T02:40:52+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://cheerknute.pp.ua/photo.html</loc>
+		<lastmod>2020-01-13T02:40:52+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://cheerknute.pp.ua/video.html</loc>
+		<lastmod>2020-01-13T02:40:53+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://cheerknute.pp.ua/index.html</loc>
+		<lastmod>2020-01-13T02:40:54+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
 		<image:image>
 			<image:loc>http://cheerknute.pp.ua/photo/1/1.jpg</image:loc>
 			<image:title>
@@ -149,7 +165,6 @@
 				черлідінг,група підтримки,КНТЕУ,чемпіони України,черлидинг, группа поддержки,чемпионы , тренеровки
 			</image:title>
 		</image:image>
-		<loc xmlns:xhtml="http://cheerknute.pp.ua/video.html">http://cheerknute.pp.ua/video.html</loc>
 		<video:video>
 			<video:title>черлідінг,група підтримки,КНТЕУ</video:title>
 			<video:description>черлідінг,група підтримки,КНТЕУ,чемпіони України,черлидинг, группа поддержки,чемпионы , выступление</video:description>
