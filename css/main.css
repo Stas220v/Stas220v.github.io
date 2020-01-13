@@ -121,6 +121,15 @@ body,html{
 .gif img{
 	width: 100%;
 }
+.s_gif7{
+	z-index: 10;
+	top: -100%;
+	left: 275%; 
+	border: 2px solid #02e102;
+	position: absolute;
+	transform: scale(0.0);
+	transition: 0.5s ease;
+}
 .s_gif{
 	top:-100%;
 	left: 75%; 
@@ -151,9 +160,13 @@ body,html{
 	transform: scale(0.0);
 	transition: 0.25s ease;
 }
+.test6:hover .s_gif7 ,.test6:focus .s_gif7{
+	transform: scale(2);
+	top: 100%;
+	left: 275%; 
+}
 .test5:hover .s_gif6 ,.test5:focus .s_gif6{
 	transform: scale(0.25);
-	cursor: url('../img/1/1.png'),auto;
 }
 .test4:hover .s_gif5 ,.test4:focus .s_gif5{
 	transform: scale(0.4);
