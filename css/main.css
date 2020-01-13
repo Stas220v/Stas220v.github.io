@@ -59,7 +59,11 @@ body,html{
 	width: 100%;
 	max-width: 1100px;	
 }
+.head{
+	position: relative;
+}
 .menu {
+	line-height: 10px;
 	display: flex;
 	justify-content:space-around;
 	align-items: center;
@@ -67,7 +71,8 @@ body,html{
 	border-left: 5px solid #02e102;
 	position: absolute;
 	visibility:hidden;
-	top: 155px;
+	left: 0;
+	top: 94%;
 	opacity: 0;
 	z-index: 5;
 	width: 96%;
@@ -170,6 +175,7 @@ body,html{
 	text-shadow: 2px 2px 6px red;
 }
 .logo{
+	
 	width: 85%;
 	text-align: center;
 	background:linear-gradient(-45deg, transparent 35px,#02e102 35px, #02e102 40px, #eee 0);
@@ -571,10 +577,7 @@ ul {
 		margin-top: 2%;
 		margin-right: 2%;
 	}
-	.menu{
-		top:142px;
-		width: 95.5%;
-	}
+	
 	.menu a{
 		font-size: 19px;
 	}
@@ -609,12 +612,11 @@ ul {
 	.insta{
 		height:auto;
 	}
-	.menu{
-		top:128px;
-		width: 95%;
-	}
 	.menu a{
 		font-size: 18px;
+	}
+	.menu{
+		width: 95%;
 	}
 }
 @media (max-width: 920px) {
@@ -629,16 +631,14 @@ ul {
 		opacity: 1;
 		transform: perspective(600px) rotateX(0deg);
 	}
-	.menu{
-		top:120px;
-		width: 94.5%;
-	}
 	.menu a{
 		font-size: 18px;
 	}
 }
 @media (max-width: 820px) {
-
+	.menu{
+		width: 94%;
+	}
 	.dis{
 		font-size: 110%;
 	}
@@ -655,15 +655,15 @@ ul {
 	.insta{
 		height:259px;
 	}
-	.menu{
-		top:110px;
-		width: 94%;
-	}
 	.menu a{
 		font-size: 16px;
 	}
 }
 @media (max-width: 768px) {
+	.menu{
+		top: 92%;
+		width: 93%;
+	}
 	.gall{
 		grid-template-columns: 85%;
 		justify-content: center;
@@ -676,10 +676,6 @@ ul {
 	}
 	.ph1 li{
 		margin-right: 27px;
-	}
-	.menu{
-		top:100px;
-		width: 93%;
 	}
 	.text{
 		font-size: 12px;
@@ -720,11 +716,18 @@ ul {
 }
 @media (max-width: 650px) {
 	.menu{
-		top:80px;
+		top: 88%;
 		width: 92%;
 	}
 	.menu a{
-		font-size: 14px;
+		font-size: 12px;
+		margin-right: 10px;
+	}
+}
+@media (max-width: 530px) {
+	.menu{
+		top: 88%;
+		width: 90.5%;
 	}
 }
 @media (max-width: 480px) {
@@ -734,13 +737,12 @@ ul {
 	.ph1 li{
 		margin-right: 20px;
 	}
-	.menu{
-		top:49px;
-		width: 88%;
-	}
 	.menu a{
 		font-size: 10px;
-		margin-left: 10px;
+	}
+	.menu{
+		top: 87%;
+		width: 90%;
 	}
 	.logo h1{
 		font-size: 8vw;
@@ -752,8 +754,12 @@ ul {
 		font-size: 20px;
 	}
 }
-
-
+@media (max-width: 400px) {
+	.menu{
+		top: 85%;
+		width: 88%;
+	}
+}
 ::-webkit-scrollbar{
 	width: 10px;
 }
