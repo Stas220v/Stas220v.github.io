@@ -618,7 +618,12 @@ ul {
 	}
 }
 @media (max-width: 920px) {
-
+	.dis{
+		font-size: 120%;
+	}
+	.dis1{
+		font-size: 180%;
+	}
 	.menu{
 		visibility: visible;
 		opacity: 1;
@@ -634,6 +639,12 @@ ul {
 }
 @media (max-width: 820px) {
 
+	.dis{
+		font-size: 110%;
+	}
+	.dis1{
+		font-size: 160%;
+	}
 
 	.ph1 a{
 		font-size: 18px;
@@ -752,3 +763,4 @@ ul {
 ::-webkit-scrollbar-thumb:hover{
 	background:linear-gradient(transparent,red,transparent);
 }
+
