@@ -424,9 +424,7 @@ ul {
 	.gallery img {
 		transform: skew(0deg);
 	}
-        .gallery .gallery-item:hover,.gallery .gallery-item:focus {
-		transform: scale(1.0);
-	}
+     
 }
 @keyframes zoomin {
 	0% {
@@ -649,6 +647,9 @@ ul {
 		left: 15%;
 		top: -30px;
 	}
+        .gallery .gallery-item:hover,.gallery .gallery-item:focus {
+		transform: scale(1.0);
+	}
 	.menu{
 		visibility: visible;
 		opacity: 1;
@@ -767,11 +768,14 @@ ul {
 }
 @media (max-width: 480px) {
 	.ph1 {
-		left: 22%;
+		left: 24%;
 		top: -36px;
 	}
 	.ph1 a{
-		font-size: 16px;
+		font-size: 14px;
+	}
+	.ph1 li{
+		margin-right: 0px;
 	}
 	.menu{
 		top:49px;
