@@ -27,7 +27,10 @@
 								<img class="s_gif4" src="img/1/5.gif">
 								<div class="test5">
 									<img class="s_gif5" src="img/1/6.gif">
-									<img class="s_gif6" src="img/1/7.gif">
+									<div class="test6">
+										<img class="s_gif6" onmouseover="win()" src="img/1/7.gif">
+										<img class="s_gif7" src="img/1/1.jpg">
+									</div>	
 								</div>	
 							</div>						
 						</div>	
@@ -89,5 +92,16 @@
 		</div>
 	</div>	
 	<script src="js/video.js"></script>
+        <script type="text/javascript">
+		var del = document.getElementById("del");
+		window.onresize = function(){
+			if(document.documentElement.clientWidth<1000){		
+				del.parentNode.removeChild(del);
+			}
+		}
+		function win(){
+			setTimeout("del.parentNode.removeChild(del)",2500);
+		}
+	</script>
 </body>
 </html>
