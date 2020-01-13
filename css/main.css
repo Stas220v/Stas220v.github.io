@@ -424,6 +424,9 @@ ul {
 	.gallery img {
 		transform: skew(0deg);
 	}
+        .gallery .gallery-item:hover,.gallery .gallery-item:focus {
+		transform: scale(1.0);
+	}
 }
 @keyframes zoomin {
 	0% {
