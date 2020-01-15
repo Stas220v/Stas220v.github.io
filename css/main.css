@@ -125,7 +125,7 @@ body,html{
 	z-index: 10;
 	top: -100%;
 	left: 275%; 
-	border: 1px solid #02e102;
+	border: 2px solid #02e102;
 	position: absolute;
 	transform: scale(0.0);
 	transition: 0.5s ease;
