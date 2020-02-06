@@ -94,6 +94,9 @@
 	<script src="js/video.js"></script>
         <script type="text/javascript">
 		var del = document.getElementById("del");
+                        if(document.documentElement.clientWidth<1000){		
+				del.parentNode.removeChild(del);
+			}
 		window.onresize = function(){
 			if(document.documentElement.clientWidth<1000){		
 				del.parentNode.removeChild(del);
