@@ -159,27 +159,27 @@ body,html{
 	transform: scale(0.0);
 	transition: 0.25s ease;
 }
-.test6:hover .s_gif7 ,.test6:focus .s_gif7{
+.test6:hover .s_gif7 {
 	transform: scale(2);
 	top: 100%;
 	left: 275%; 
 }
-.test5:hover .s_gif6 ,.test5:focus .s_gif6{
+.test5:hover .s_gif6 {
 	transform: scale(0.25);
 }
-.test4:hover .s_gif5 ,.test4:focus .s_gif5{
+.test4:hover .s_gif5 {
 	transform: scale(0.4);
 }
-.test3:hover .s_gif4 ,.test3:focus .s_gif4{
+.test3:hover .s_gif4 {
 	transform: scale(0.5);
 }
-.test2:hover .s_gif3 ,.test2:focus .s_gif3{
+.test2:hover .s_gif3 {
 	transform: scale(0.7);
 }
-.test:hover .s_gif2 ,.test:focus .s_gif2{
+.test:hover .s_gif2 {
 	transform: scale(0.6);
 }
-.gif:hover .s_gif , .gif:focus .s_gif{
+.gif:hover .s_gif {
 	transform: scale(0.6);
 	top:10%;
 }
