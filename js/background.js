@@ -116,6 +116,16 @@ document.querySelector('#bg svg').remove();
 clearTimeout(refreshTimeout);
 onLoad();
 }
+px_ratio = window.devicePixelRatio || window.screen.availWidth / document.documentElement.clientWidth;
 
+$(window).resize(function(){isZooming();});
+
+function isZooming(){
+    var newPx_ratio = window.devicePixelRatio || window.screen.availWidth / document.documentElement.clientWidth;
+    if(newPx_ratio != px_ratio){
+        px_ratio = newPx_ratio;
+       window.onresize = onResize;
+    }
+}
 window.onload = onLoad;
 window.onresize = onResize;
