@@ -809,4 +809,9 @@ ul {
 ::-webkit-scrollbar-thumb:hover{
 	background:linear-gradient(transparent,red,transparent);
 }
+@media only screen and (-webkit-max-device-pixel-ratio: 0.75){
+   .gif:hover .s_gif {
+	transform: scale(0.0);
+}
+}
 
