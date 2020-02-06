@@ -273,12 +273,13 @@
 	<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
 	<script type="text/javascript" src="js/jquery.slicebox.js"></script>
 	<script src="js/main.js"></script>
-        <script type="text/javascript">
+       <script type="text/javascript">
 		var del = document.getElementById("del");
-                        if(document.documentElement.clientWidth<1000){		
-				del.parentNode.removeChild(del);
-			}
+		if(document.documentElement.clientWidth<1000){		
+			del.parentNode.removeChild(del);
+		}
 		window.onresize = function(){
+			onResize();
 			if(document.documentElement.clientWidth<1000){		
 				del.parentNode.removeChild(del);
 			}
