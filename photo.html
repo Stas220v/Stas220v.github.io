@@ -150,10 +150,11 @@
 	<script type="text/javascript" src="js/photo.js" ></script>
         <script type="text/javascript">
 		var del = document.getElementById("del");
-                        if(document.documentElement.clientWidth<1000){		
-				del.parentNode.removeChild(del);
-			}
+		if(document.documentElement.clientWidth<1000){		
+			del.parentNode.removeChild(del);
+		}
 		window.onresize = function(){
+			onResize();
 			if(document.documentElement.clientWidth<1000){		
 				del.parentNode.removeChild(del);
 			}
