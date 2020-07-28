@@ -373,7 +373,7 @@ ul {
 	background-color: rgba(0,0,0,0.75) !important;
 	height: 100%;
 	width: 100%;
-	display: grid;
+	display: flex;
 }
 .full .content img {
 	left: 50%;
