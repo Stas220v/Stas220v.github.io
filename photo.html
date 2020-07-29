@@ -152,11 +152,13 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$(".ph1").on("click","a", function (event) {
-				event.preventDefault();
-				var id  = $(this).attr('href'),
-				top = $(id).offset().top;
-				$(this).blur();
-				$('body,html').animate({scrollTop: top}, 1000);
+				if(document.documentElement.clientWidth > 800){
+					event.preventDefault();
+					var id  = $(this).attr('href'),
+					top = $(id).offset().top;
+					$(this).blur();
+					$('body,html').animate({scrollTop: top}, 1000);
+				}				
 			});
 		});
 	</script>
