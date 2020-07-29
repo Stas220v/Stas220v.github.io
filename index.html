@@ -280,10 +280,13 @@
 	<script type="text/javascript">
 										$(document).ready(function(){
 											$(".men").on("click","a", function (event) {
-												event.preventDefault();
-												var id  = $(this).attr('href'),
-												top = $(id).offset().top;
-												$('body,html').animate({scrollTop: top}, 1000);
+												if(document.documentElement.clientWidth > 800){
+					event.preventDefault();
+					var id  = $(this).attr('href'),
+					top = $(id).offset().top;
+					
+					$('body,html').animate({scrollTop: top}, 1000);
+				}	
 											});
 										});
 									</script>
