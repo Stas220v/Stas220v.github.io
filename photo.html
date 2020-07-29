@@ -155,6 +155,7 @@
 				event.preventDefault();
 				var id  = $(this).attr('href'),
 				top = $(id).offset().top;
+				$(this).blur();
 				$('body,html').animate({scrollTop: top}, 1000);
 			});
 		});
