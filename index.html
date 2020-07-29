@@ -44,8 +44,12 @@
 				<h1 class="log1">CHEER_KNUTE</h1>
 			</div>
 			<ul class="menu">
-				<li><a href="#cheer">спортивні змагання</a></li>
-				<li><a href="#support">група підтримки</a></li>
+				<div class="men">
+					<li><a href="#cheer">спортивні змагання</a></li>
+				</div>
+				<div class="men">
+					<li><a href="#support">група підтримки</a></li>
+				</div>
 				<li><a href="photo.html">фото</a></li>
 				<li><a href="video.html">відео</a></li>
 				<li><a href="https://docs.google.com/forms/d/1g0aEWINcDtDyOgfII93LavyBerxRmYDkwA7ULFtMMhE/viewform?pli=1&edit_requested=true','_blank">приєднатися</a></li>
@@ -273,6 +277,16 @@
 	<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
 	<script type="text/javascript" src="js/jquery.slicebox.js"></script>
 	<script src="js/main.js"></script>
+	<script type="text/javascript">
+										$(document).ready(function(){
+											$(".men").on("click","a", function (event) {
+												event.preventDefault();
+												var id  = $(this).attr('href'),
+												top = $(id).offset().top;
+												$('body,html').animate({scrollTop: top}, 1000);
+											});
+										});
+									</script>
        <script type="text/javascript">
 		var del = document.getElementById("del");
 		if(document.documentElement.clientWidth<1000){		
